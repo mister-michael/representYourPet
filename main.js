@@ -14,7 +14,15 @@ const Danke = {
 
     pee: function () {
         window.alert("stinky!");
-    } 
+    },
+
+    favoriteToys: [],
+
+    play: function (toy) {
+        if (toy.fun === true) {
+            this.favoriteToys.Push();
+        }
+    }
 }
 
 Danke.meow();
