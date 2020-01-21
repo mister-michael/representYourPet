@@ -16,14 +16,23 @@ const Danke = {
         window.alert("stinky!");
     },
 
+    toys: {
+        toy1: "mouse",
+    },
+
     favoriteToys: [],
 
-    play: function (toy) {
-        if (toy.fun === true) {
-            this.favoriteToys.Push();
-        }
+    play: function(toy) {
+        
+        this.favoriteToys.push(toy);
+            
+        },
     }
-}
+
+
+Danke.play(Danke.toys.toy1);
+
+console.log(Danke.favoriteToys);
 
 Danke.meow();
 Danke.scratch();
